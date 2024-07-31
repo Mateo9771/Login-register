@@ -1,0 +1,21 @@
+form{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    input{
+        text-align: center;
+    }
+    button{
+        width: 8rem;
+        height: 2rem;
+        border-radius: 10px;
+        background-color: #121216;
+        color: white;
+    }
+    button:hover{
+        background-color: white;
+        color: #333;
+    }
+}

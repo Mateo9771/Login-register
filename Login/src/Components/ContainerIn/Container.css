@@ -1,0 +1,20 @@
+.ContainerIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#121216;
+    .Container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:1rem;
+        color: aliceblue;
+        background-image: radial-gradient(circle, #121216, #0f1e29, #002c33, #003a2e, #21441c);
+        width: 25rem;
+        height: 30rem;
+        border-radius: 20px;
+        
+    }
+}
